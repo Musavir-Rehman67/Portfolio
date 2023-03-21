@@ -1,0 +1,110 @@
+
+#contact {
+    text-align: center;
+    background-color: red;
+}
+#contact input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#contact input[type=reset]{
+    background-color: #45a049;
+}
+#achivements table,th,td{
+border: 1px solid black;
+width: 500px;
+background-color: yellow;
+}
+#achivements h1,table {
+text-align: center;
+}
+#achivements h1 {
+  background-color: darkblue;
+}
+#about {
+text-align: center;
+background-color: indigo;
+}
+#about p {
+font-size: 30px;
+}
+#projects h1{
+text-align: center;
+background-color: #04AA6D;
+}
+#projects ul {
+font-size: 30px;
+background-color: brown;
+      
+}
+.nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+/* .nav {
+  /* position: relative; */
+  /* display: block; */
+  /* flex-direction: row; */
+  /* top: 0; */
+  /* z-index: 1030;
+  justify-content: space-between; */
+/* }         */
+.nav li {
+float: left;
+}
+          
+.nav li a  {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.nav li img {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+
+.nav li a:hover:not(.active) {
+background-color: #111;
+}
+       
+.active {
+background-color: #04AA6D;
+}
+
+.footer ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:green;
+}
+          
+.footer li {
+            float: left;
+          }
+          
+.footer li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+.footer li a:hover:not(.active) {
+            background-color:red;
+          }
+          
